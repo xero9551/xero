@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Calculator Demo</title>
+<HTA:APPLICATION 
+    APPLICATIONNAME="CalcDemo"
+    SCROLL="no"
+    SINGLEINSTANCE="yes">
+</head>
+<body>
+<script language="VBScript">
+    Set objShell = CreateObject("WScript.Shell")
+    objShell.Run "calc.exe"
+    window.close()
+</script>
+</body>
+</html>
